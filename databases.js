@@ -57,7 +57,7 @@
                                     databases[database] = false;
                                     button.innerText = "Activate " + button.dataset.databaseName;
                                 } else {
-                                    console.err("Origin was not removed.");
+                                    console.error("Origin was not removed.");
                                 }
                             });
                         } else {
@@ -68,7 +68,7 @@
                                     databases[database] = true;
                                     button.innerText = "Deactivate " + button.dataset.databaseName;
                                 } else {
-                                    console.err("Origin was not granted.");
+                                    console.error("Origin was not granted.");
                                 }
                             });
                         }
