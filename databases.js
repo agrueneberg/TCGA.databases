@@ -1,6 +1,9 @@
 (function () {
     "use strict";
 
+    /*jshint jquery:true browser:true */
+    /*global TCGA:true chrome:true async:true */
+
     TCGA.loadScript({
         registerModules: false,
         scripts: ["https://raw.github.com/caolan/async/master/dist/async.min.js"]
