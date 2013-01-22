@@ -30,7 +30,7 @@
                 TCGA.ui.registerTab({
                     id: "databases",
                     title: "Databases",
-                    content: "<div class=\"page-header\"><h1>Databases <small>Activate third-party databases for use with the TCGA Toolbox.</small></h1></div><p><span class=\"label label-info\">Info</span> This module will not add APIs to interact with third-party databases.</p><h2>cBio Cancer Genomics Portal</h2><p>cBio Cancer Genomics Portal provides visualization, analysis and download of large-scale cancer genomics data sets.</p><button class=\"btn databases-toggle\" data-database-name=\"cBio\" data-database-url=\"http://www.cbioportal.org/*\" class=\"btn\"></button>",
+                    content: "<div class=\"page-header\"><h1>Databases <small>Activate third-party databases for use with the TCGA Toolbox.</small></h1></div><p><span class=\"label label-info\">Info</span> This module will not add APIs to interact with third-party databases.</p><h2>cBio Cancer Genomics Portal: Web Service</h2><p>URI: <a href=\"http://www.cbioportal.org/public-portal/webservice.do\" target=\"_blank\">http://www.cbioportal.org/public-portal/webservice.do</a><br />Documentation: <a href=\"http://www.cbioportal.org/public-portal/web_api.jsp\" target=\"_blank\">http://www.cbioportal.org/public-portal/web_api.jsp</a></p><button class=\"btn databases-toggle\" data-database-name=\"cBio\" data-database-url=\"http://www.cbioportal.org/*\" class=\"btn\"></button>",
                     switchTab: true
                 }, function (err, el) {
 
