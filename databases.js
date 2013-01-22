@@ -30,7 +30,7 @@
                 TCGA.ui.registerTab({
                     id: "databases",
                     title: "Databases",
-                    content: "<div class=\"page-header\"><h1>Databases <small>Activate third-party databases for use with the TCGA Toolbox.</small></h1></div><p><span class=\"label label-info\">Info</span> This module will not add APIs to interact with third-party databases.</p><h2>UniProt</h2><p>UniProt is a comprehensive resource for protein sequence and annotation data.</p><button class=\"btn databases-toggle\" data-database-name=\"UniProt\" data-database-url=\"http://beta.sparql.uniprot.org/*\" class=\"btn\"></button>",
+                    content: "<div class=\"page-header\"><h1>Databases <small>Activate third-party databases for use with the TCGA Toolbox.</small></h1></div><p><span class=\"label label-info\">Info</span> This module will not add APIs to interact with third-party databases.</p><h2>cBio Cancer Genomics Portal</h2><p>cBio Cancer Genomics Portal provides visualization, analysis and download of large-scale cancer genomics data sets.</p><button class=\"btn databases-toggle\" data-database-name=\"cBio\" data-database-url=\"http://www.cbioportal.org/*\" class=\"btn\"></button><h2>UniProt</h2><p>UniProt is a comprehensive resource for protein sequence and annotation data.</p><button class=\"btn databases-toggle\" data-database-name=\"UniProt\" data-database-url=\"http://beta.sparql.uniprot.org/*\" class=\"btn\"></button>",
                     switchTab: true
                 }, function (err, el) {
 
