@@ -6,7 +6,7 @@
 
     TCGA.loadScript({
         registerModules: false,
-        scripts: ["https://raw.github.com/caolan/async/master/lib/async.js"]
+        scripts: ["https://cdnjs.cloudflare.com/ajax/libs/async/0.2.7/async.min.js"]
     }, function () {
 
         var databases;
